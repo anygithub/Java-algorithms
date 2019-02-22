@@ -1,7 +1,7 @@
 package two;
 
 
-import static two.Sort.sortBubble;
+import static two.Sort.*;
 
 
 public class App {
@@ -11,7 +11,9 @@ public class App {
         Mass array1 = new Mass(1000);
         Mass array2 = new Mass(1000);
 
+        //Заполнить массив рандомными числами
         array.fillArrayWithRandNum(1000);
+        //Скопировать массив в два новых массива
         array.copyArray(array1);
         array.copyArray(array2);
 
