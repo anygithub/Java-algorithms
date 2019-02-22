@@ -1,8 +1,8 @@
 package two;
 
 
-import static two.Sort.sortBubble;
-import static two.Sort.sortSelect;
+import static two.Sort.*;
+
 
 public class App {
     public static void main(String[] args) {
