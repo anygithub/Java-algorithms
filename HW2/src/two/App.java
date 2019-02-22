@@ -1,8 +1,7 @@
 package two;
 
 
-import static two.Sort.sortBubble;
-import static two.Sort.sortSelect;
+import static two.Sort.*;
 
 public class App {
     public static void main(String[] args) {
@@ -24,7 +23,7 @@ public class App {
 
         //Сортировка вставками
         long startTime1 = System.currentTimeMillis();
-        sortSelect(array1);
+        sortInsert(array1);
         long endTime1 = System.currentTimeMillis();
         long diff1 = endTime1 - startTime1;
         System.out.println("Время сортировки вставками: " + diff1 + " миллисекунд");
